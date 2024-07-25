@@ -100,7 +100,7 @@ function getRecommendations(weatherCondition) {
 // document.getElementById('getWeatherButton').addEventListener('click', getWeatherAndRecommendation);
 forecastButton.addEventListener('click', getForecast); // New button listener
 
-// add event listerner for the forecast button
+// add event listerner for the forecast button to hide and show
 // forecastButton.addEventListener('click', ()=>{
 //     console.log("working")
 //     if(fiveDaysForecast.style.diplay === "none"){
