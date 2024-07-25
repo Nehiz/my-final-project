@@ -76,9 +76,9 @@ async function fetchForecast(location) {
     return response.json();
 }
 
-// Custom logic for clothing recommendations
+// for clothing recommendations
 function getRecommendations(weatherCondition) {
-    // Replace with your own logic based on weather conditions
+    // Return clothing recommendations based on weather conditions
     if (weatherCondition === 'Clear') {
 
         return ['Sunglasses', 'Lightweight Fabrics'];
@@ -100,7 +100,7 @@ function getRecommendations(weatherCondition) {
 // document.getElementById('getWeatherButton').addEventListener('click', getWeatherAndRecommendation);
 forecastButton.addEventListener('click', getForecast); // New button listener
 
-// add event lsiterner for the forecast button
+// add event listerner for the forecast button
 // forecastButton.addEventListener('click', ()=>{
 //     console.log("working")
 //     if(fiveDaysForecast.style.diplay === "none"){
