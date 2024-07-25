@@ -1,0 +1,116 @@
+/* Add your styling here */
+/* For example, centering the input and button */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero{
+    width: 100%;
+    height: 50vh ;
+    background-color: #155151;
+  
+}
+
+h1{
+    color: #fff;
+    font-family: Candara light;
+    font-size: 3rem;
+    line-height: 30px;
+
+}
+
+.img-fit{
+    width: 7vw;
+    align-self: flex-end;
+    
+}
+.wrapper{
+    height: 30vh;
+    width: 30%;
+    flex-direction: column;
+}
+
+
+/* WEATHER SVG */
+.weather-svg{
+    width: 20vw;
+    height: 20vh;
+    color: #fff;
+
+}
+
+/* THE WEATHER LAYOUT BACKGROUND */
+.weather-layout{
+    width: 100%;
+    height: 20vh;
+    background-color: #15515121;
+}
+
+/* INPUT */
+input{
+    width: 20vw;
+    height: 7vh;
+    border: 0px;
+    outline: 0px;
+    background-color: #fff;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    padding-left: 1rem;
+}
+
+/* BUTTON */
+button{
+    width: 7vw;
+    height: 7vh;
+    background-color: #155151;
+    border: 0px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    cursor: pointer;
+    color: #fff;
+    font-family: candara;
+}
+
+ /* container for weather result */
+.weather-result{
+    background-color: #1551518c;
+    height: 20vh;
+    width: 40%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#weatherResult, #recommendationResult, #forecastResult{
+    color: #fff;
+    font-family: candara;
+    padding: 0.5rem;
+
+
+}
+
+.forcast{
+    margin-left: 1rem;
+    border-radius: 0px;
+    width: 7vw;
+}
+
+.five-days-forecast{
+    height: 30vh;
+    width: 40%;
+    margin: .2rem auto 1rem ;
+    background-color: #155151;
+    overflow-y: scroll;
+    /* display: none; */
+}

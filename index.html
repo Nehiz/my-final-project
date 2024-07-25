@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Clothing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero flex">
+
+        <div class="wrapper flex">
+            <h1>Weather Forecast </h1>
+            <img src="/download-removebg-preview.png" alt="" srcset="" class="img-fit">
+        </div>
+        
+    </section>
+
+    <div class="weather-layout flex">
+        <input type="text" id="locationInput" placeholder="Enter location">
+        <button onclick="getWeatherAndRecommendation()">Get Current Weather</button>
+        <button id="forecastButton"  class="forcast">Get 5-Day Forecast</button>
+    </div>
+
+    <div class="weather-result flex">
+        <div id="weatherResult"></div>
+        <div id="recommendationResult"></div>
+    </div>
+
+    <div class="five-days-forecast">
+        <div id="forecastResult"></div>
+    </div>
+    
+    <!-- <button onclick="getWeatherAndRecommendation()">Get Weather & Recommendations</button> -->
+    <!-- <div id="weatherResult"></div>
+    <div id="recommendationResult"></div> -->
+
+    <script src="index.js"></script>
+</body>
+</html>
